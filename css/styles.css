@@ -104,3 +104,13 @@ h1{
 #footer{
     padding: 0% 42% 0%;
 }
+@media (max-width:1028px) {
+    #title{
+        height: auto;
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
